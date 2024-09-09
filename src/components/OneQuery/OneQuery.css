@@ -1,0 +1,16 @@
+.options{
+    max-width: 300px;
+    height: auto;
+    word-wrap: break-word;
+    text-align: start;
+    cursor: pointer;
+}
+
+.options:hover{
+    background-color: #f8ae2dbb;
+}
+
+.options:active{
+    background-color: #f8ae2d;
+}
+

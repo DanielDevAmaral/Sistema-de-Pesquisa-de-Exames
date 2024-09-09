@@ -1,0 +1,21 @@
+.container{
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 300px;
+    display: flex;
+    justify-content: start;
+    gap: 0.5rem;
+    align-items: center;
+    box-sizing: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+input{
+width: 100%;
+border: none;
+z-index: 1;
+}
+
+input:focus {
+    outline: none;
+}

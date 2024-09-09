@@ -1,0 +1,73 @@
+  /* Estilos do cabeçalho principal (nome do exame) */
+  .header-card {
+    text-align: center;
+    margin: 25px;
+  }
+
+  .exame-name {
+    font-size: 36px;
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #011a77, #011b77);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra leve para destacar */
+  }
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 25px;
+}
+
+.cards .ant-card {
+    background-color: #f0f0f0; /* Fundo cinza claro */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave para o efeito de hover */
+    border-radius: 8px; /* Bordas arredondadas */
+  }
+
+  
+  .cards .ant-card-head-title {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .cards .ant-card-body {
+    color: #333; /* Texto escuro para contraste */
+  }
+  
+  /* Efeito de flutuação ao passar o mouse */
+.cards .ant-card:hover {
+    transform: translateY(-10px); /* Levanta o card */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Sombra suave */
+  }
+
+  .header-card .ant-card-head{
+    background-color: #f8ae2d; /* Cabeçalho com a cor principal */
+    color: #fff; /* Texto branco no cabeçalho */
+    border-bottom: none;
+    border-radius: 8px 8px 0 0; /* Borda arredondada no topo */
+  }
+  
+  /* Estilo do cabeçalho dos cards */
+  .cards .ant-card-head {
+    background-color: #011a77; /* Cabeçalho com a cor principal */
+    color: #fff; /* Texto branco no cabeçalho */
+    border-bottom: none;
+    border-radius: 8px 8px 0 0; /* Borda arredondada no topo */
+  }
+  
+  /* Estilo do título dentro do cabeçalho dos cards */
+  .cards .ant-card-head-title {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+
+  

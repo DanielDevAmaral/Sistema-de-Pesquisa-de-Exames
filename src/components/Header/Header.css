@@ -1,0 +1,26 @@
+nav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 16px;
+  }
+  
+  img {
+    border-right: 3px solid #f8ae2d;
+    padding-right: 15px;
+    width: 30%;
+  }
+  
+  h2 {
+    font-family: "Roboto", sans-serif;
+    padding-left: 15px;
+    color: #011a77;
+    font-weight: 700;
+  
+    display: flex;
+    flex-direction: column; /* Empilha os itens verticalmente */
+    justify-content: space-between; /* Centraliza o conteúdo horizontalmente */
+    align-items: flex-start;
+    letter-spacing: 2px;
+    font-size: 19px;
+  }

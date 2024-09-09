@@ -1,0 +1,48 @@
+.table-container-scroll {
+  max-height: 250px; /* Define a altura máxima */
+  overflow-y: auto;  /* Adiciona o scroll vertical */
+  margin-top: 15px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.table-container-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.table-container-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.table-container-scroll::-webkit-scrollbar-thumb {
+  background: #f8ae2d;
+  border-radius: 10px;
+}
+
+.table-container-scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.table-container {
+  width: 100%;
+  background-color: #f7f6f2;
+  padding: 0.25em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.options {
+  max-width: 300px;
+  height: auto;
+  word-wrap: break-word;
+  text-align: start;
+  cursor: pointer;
+}
+
+.options:hover {
+  background-color: #f8ae2d79;
+}
+
+.options:active {
+  background-color: #f8ae2d;
+}
